@@ -1,0 +1,197 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+html,
+body {
+	width: 100%;
+}
+body {
+	font-family: "Verdana", sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	max-width: 920px;
+	margin: auto;
+	background-color: #EEEDED;
+}
+
+/*Common styles*/
+.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.font-weigth-bold {
+	font-weight: 700;
+}
+.text-center {
+	text-align: center;
+}
+
+
+.bg-color-black {
+	background-color: #454552;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+.margin-top-20 {
+	margin-top: 20px;
+}
+.margin-top-10 {
+	margin-top: 10px;
+}
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+.margin-bottom-15 {
+	margin-bottom: 15px;
+}
+
+.padding-15-0 {
+	padding: 15px;
+}
+.bg-color-white {
+	background-color: #fff;
+}
+
+
+.order-1 {
+	-webkit-order: 1;
+	-moz-order: 1;
+	-ms-order: 1;
+	-o-order: 1;
+	order: 1;
+}
+
+.order-2 {
+	-webkit-order: 2;
+	-moz-order: 2;
+	-ms-order: 2;
+	-o-order: 2;
+	order: 2;
+}
+
+.order-3 {
+	-webkit-order: 3;
+	-moz-order: 3;
+	-ms-order: 3;
+	-o-order: 3;
+	order: 3;
+}
+
+.order-4 {
+	-webkit-order: 4;
+	-moz-order: 4;
+	-ms-order: 4;
+	-o-order: 4;
+	order: 4;
+}
+
+
+.border {
+	border: 1px solid #d5d5d5;
+}
+
+.border-top-bottom {
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+
+h1,
+h2,
+h3 {
+	font-size: 20px;
+	line-height: 21px;
+}
+
+.wrapper {
+	width: 920px;
+	margin: auto;
+}
+
+@media only screen and (max-width : 1200px) {
+	.wrapper {
+		width: 720px;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.wrapper {
+		width: 100%;
+		max-width: 750px;
+	}
+}
+
+/* Choose Matras Link*/
+.choose-prod-link {
+	/*background-color: #DBECF7*/;
+	background-color: #DDDDDD;
+	padding: 10px;
+}
+
+.choose-prod-link .border {
+	position: relative;
+	padding: 20px;
+	border-style: dashed;
+	border-color: #fff;
+}
+
+.choose-prod-info {
+	width: 70%;
+}
+
+.choose-prod-info:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-image: url(../images/choose-link.jpg);
+	content: '';
+	width: 30%;
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+	.choose-prod-info {
+		width: 100%;
+	}
+	.choose-prod-link .border {
+		padding: 10px;
+	}
+	.choose-prod-info:after {
+		display: none;
+	}
+}
